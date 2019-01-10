@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   names_arr.each do |name|
     puts name
     data.each do |attribute, attr_type|
-      binding.pry
+      puts attribute
     end
   end
   puts output
